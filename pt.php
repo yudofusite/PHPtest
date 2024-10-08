@@ -2,9 +2,16 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>受信結果</title>
 </head>
 <body>
-  <p>題名：<?php echo $_GET["text"] ?></p>
+<?php 
+        mb_language("Japanese");
+        mb_internal_encoding("UTF-8");
+
+        $to = $_POST['email'];
+        $title = $_POST['title'];
+        $message = $_POST['message'];
+        $headers = "From: from@example.com";
+?>
 </body>
 </html>
