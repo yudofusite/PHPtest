@@ -10,7 +10,7 @@
 
         $to = $_POST['email'];
         $title = $_POST['title'];
-        $message = $_POST['message'];
+        $message = $_POST['naiyo'];
         $headers = "From: from@example.com";
 ?>
 </body>
