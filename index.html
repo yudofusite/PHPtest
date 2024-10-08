@@ -85,7 +85,7 @@
   });
   document.addEventListener("keydown",function(e) {
     if (e.key == "ArrowRight") {
-      mig = 1;
+      migi = 1;
     };
   });
   document.addEventListener("keydown",function(e) {
@@ -93,7 +93,10 @@
       hid = 1;
     };
   });
-
+document.setTimeout(function() {
+  if (ue == 1 && sita == 1 && migi == 1 && hid == 1) {
+    document.getElementById("kai").style.display = "block";
+  }
 </script>
 </body>
 </html>
