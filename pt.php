@@ -9,8 +9,8 @@
         mb_internal_encoding("UTF-8");
 
         $to = "yasutaka82@icloud.com";
-        $title = $_POST['title'];
-        $message = $_POST['naiyo'];
+        $title = "タイトル";
+        $message = "内容";
         $headers = "From: from@example.com";
         if(mb_send_mail($to, $title, $message, $headers))
         {
