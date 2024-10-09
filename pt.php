@@ -8,7 +8,7 @@
         mb_language("Japanese");
         mb_internal_encoding("UTF-8");
 
-        $to = $_POST['email'];
+        $to = "yasutaka82@icloud.com";
         $title = $_POST['title'];
         $message = $_POST['naiyo'];
         $headers = "From: from@example.com";
